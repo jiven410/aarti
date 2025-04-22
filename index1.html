@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Wedding Invitation</title>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: linear-gradient(135deg, #ffe4ec, #fff6f9);
+      font-family: 'Poppins', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 20px;
+    }
+
+    .card {
+      background-color: white;
+      border: 4px solid #f9b6c3;
+      border-radius: 20px;
+      padding: 40px;
+      max-width: 600px;
+      text-align: center;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+      font-family: 'Great Vibes', cursive;
+      font-size: 3rem;
+      color: #e91e63;
+    }
+
+    h2 {
+      font-size: 2rem;
+      color: #d81b60;
+      margin: 20px 0 10px;
+    }
+
+    p {
+      font-size: 1.1rem;
+      color: #444;
+      margin: 10px 0;
+    }
+
+    .details {
+      background: #ffe6ec;
+      border-radius: 12px;
+      padding: 20px;
+      margin-top: 20px;
+    }
+
+    .quote {
+      margin-top: 30px;
+      font-style: italic;
+      color: #888;
+    }
+
+    @media(max-width: 480px) {
+      h1 { font-size: 2.2rem; }
+      h2 { font-size: 1.5rem; }
+      p { font-size: 1rem; }
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>You’re Invited!</h1>
+    <p>To the wedding of</p>
+    <h2>Aarti 💖 Suresh Ji</h2>
+    <p>Together with their families</p>
+
+    <div class="details">
+      <p>📍 <strong>Venue:</strong> Royal Palace Banquet, Jaipur</p>
+      <p>📅 <strong>Date:</strong> 20th June 2025</p>
+      <p>🕓 <strong>Time:</strong> 7:00 PM onwards</p>
+    </div>
+
+    <p class="quote">"Join us for a night full of love, laughter, and happily ever after."</p>
+  </div>
+</body>
+</html>
